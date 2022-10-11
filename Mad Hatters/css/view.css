@@ -1,0 +1,1156 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;font-size: 100%;line-height: 1;font-size: 14px;-ms-text-size-adjust: 100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: inherit;}
+
+
+.wrapper {
+}
+.first_item h1{
+	position: absolute;
+	width: 302.47px;
+	height: 29.32px;
+	left: 568.2px;
+	top: 67.36px;
+	font-size: 32px;
+}
+.intro {
+	font-family: Poppins;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 16px;
+	width: 91px;
+	height: 24px;
+	position: relative;
+	top: 379px;
+	left: 133px;
+	color: #967675;
+}
+.second_item {
+	position: relative;
+	top: 402px;
+	left: 131px;
+	width: 829px;
+	height: 238px;
+	font-family: Playfair Display;
+	font-size: 102px;
+	font-style: normal;
+	font-weight: 700;
+	z-index: 3;
+	color: #23242c;
+}
+.button_learn {
+	transition: all 0.2s;
+	width: 185px;
+	height: 61px;
+	position: relative;
+	top: 488px;
+	left: 133px;
+	border: 1px solid #cfadac;
+	border-radius: 6px;
+	box-sizing: border-box;
+	box-shadow: 0px 20px 120px 1px #8883b1;
+	color: #cfadac;
+	z-index: 4;
+}
+
+.button_learn:hover{background-color: #cfadac; color: #fff;}
+
+.button_learn h1{
+	font-size: 16px;
+	font-family: poppins;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+	position: relative;
+	top: 20px;
+}
+
+.roundbig{
+	position: absolute;
+	left: 611px;
+	top: 351px;
+	width: 518px;
+	height: 518px;
+	border-radius: 518px;
+	border: #23242c 1px solid;
+	opacity: 0.1;
+	z-index: 2;
+}
+
+.roundsmall{
+	position: absolute;
+	width: 246px;
+	height: 246px;
+	border-radius: 246px;
+	top: 476px;
+	left: 737px;
+	background: rgba(250, 226, 214, 0.4);
+}
+
+/*img*/
+
+.cap{
+	position: absolute;
+	left: 991px;
+	top: 455px;
+	width: 221px;
+	height: 299px;
+	z-index: 3;
+}
+
+.g{
+	position: absolute;
+	left: 849px;
+	top: 316px;
+	width: 256px;
+	height: 370px;
+	z-index: 4;
+}
+.categories{
+	display: flex;
+	position: absolute;
+	width: 656px;
+	height: 32px;
+	top: 142px;
+	left: 422px;
+	align-items: flex-start;
+	flex-direction: row;
+}
+.women{
+	position: relative;
+	left: 32px;
+}
+
+
+.kids{
+	position: relative;
+	left: 64px;
+}
+
+.anyone{
+	position: relative;
+	left: 100px;
+}
+
+.noone{
+	position: relative;
+	left: 128px;
+}
+
+.categories a{
+	color: #000;
+	font-family: poppins;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.three_cat{
+	display: flex;
+	position: absolute;
+	left: 133px;
+	top: 970px;
+	width: 1168px;
+	height: 190px;
+}
+
+.lhor {
+	position: absolute;
+	width: 1440px;
+	height: 1px;
+	opacity: 0.05;
+	filter: alpha(opacity=10);
+	background-color: #000;
+	top: 179px;
+}
+.line1 {
+	position: absolute;
+	left: 228px;
+	top: 180px;
+	width: 1px;
+	height: 5566px;
+	opacity: 0.05;
+	filter: alpha(opacity=10);
+	background-color: #000;
+	z-index: 1;
+}
+.line2 {
+	position: absolute;
+	top: 180px;
+	left: 474px;
+	width: 1px;
+	height: 5566px;
+	opacity: 0.05;
+	filter: alpha(opacity=10);
+	background-color: #000;
+	z-index: 1;
+}
+.line3 {
+	position: absolute;
+	left: 720px;
+	top: 180px;
+	width: 1px;
+	height: 5566px;
+	opacity: 0.05;
+	filter: alpha(opacity=10);
+	background-color: #000;
+	z-index: 1;
+}
+.line4 {
+	position: absolute;
+	left: 966px;
+	top: 180px;
+	width: 1px;
+	height: 5566px;
+	opacity: 0.05;
+	filter: alpha(opacity=10);
+	background-color: #000;
+	z-index: 1;
+}
+.line5 {
+	position: absolute;
+	left: 1212px;
+	top: 180px;
+	width: 1px;
+	height: 5566px;
+	opacity: 0.05;
+	filter: alpha(opacity=10);
+	background-color: #000;
+	z-index: 1;
+	z-index: 4;
+}
+
+.brand h1{
+	width: 117px;
+	height: 51px;
+	font-size: 38px;
+	font-family: Playfair display;
+	font-style: italic;
+	text-align: center;
+	z-index: 4;
+}
+.styles h1{
+	width: 94px;
+	height: 51px;
+	font-size: 38px;
+	font-family: playfair display;
+	font-style: italic;
+	position: absolute;
+	left: 407px;
+	z-index: 4;
+}
+.colors h1{
+	width: 198px;
+	height: 51px;
+	font-size: 38px;
+	font-family: playfair display;
+	font-style: italic;
+	position: absolute;
+	left: 814px;
+	z-index: 4;
+}
+
+.brand p{
+	width: 233px;
+	font-size: 16px;
+	font-family: poppins;
+	line-height: 26.54px;
+	color: #9d8888;
+	position: absolute;
+	top: 81px;
+	left: 47px;
+	z-index: 4;
+}
+.styles p{
+	width: 233px;
+	font-size: 16px;
+	font-family: poppins;
+	line-height: 26.54px;
+	color: #9d8888;
+	position: absolute;
+	top: 81px;
+	left: 447px;
+	z-index: 4;
+}
+.colors p{
+	width: 233px;
+	font-size: 16px;
+	font-family: poppins;
+	line-height: 26.54px;
+	color: #9d8888;
+	position: absolute;
+	top: 81px;
+	left: 857px;
+	z-index: 4;
+}
+
+/*----ml----*/
+
+h1.bs{
+	width: 105px;
+	height: 24px;
+	position: absolute;
+	left: 801px;
+	top: 1313px;
+	font-size: 16px;
+	font-family: 'Poppins';
+	color: #967675;
+	font-weight: 300;
+	font-style: normal;
+	z-index: 4;
+}
+
+h2.mlf{
+	position: absolute;
+	top: 1345px;
+	left: 799px;
+	width: 501px;
+	height: 342px;
+	font-size: 102px;
+	font-family: 'Playfair Display';
+	font-style: normal;
+	font-weight: 700;
+	line-height: 110px;
+	color: #23242c;
+	z-index: 4;
+}
+
+a.learn{
+	transition: all 0.2s;
+	width: 185px;
+	height: 61px;
+	position: absolute;
+	top: 1720px;
+	left: 801px;
+	border: 1px solid #cfadac;
+	border-radius: 6px;
+	box-sizing: border-box;
+	box-shadow: 0px 20px 120px 1px #8883b1;
+	color: #cfadac;
+	z-index: 4;
+}
+
+.learn:hover{background-color: #cfadac; color: #fff;}
+
+.learn h1{
+	font-size: 16px;
+	font-family: poppins;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+	position: relative;
+	top: 20px;
+}
+
+img.boy{
+	position: absolute;
+	width: 591px;
+	height: 458px;
+	left: 129px;
+	top: 1323px;
+	z-index: 4;
+}
+
+/*--Our Range--*/
+
+.fire{
+	position: absolute;
+	left: 630px;
+	top: 1998px;
+	width: 181px;
+	height: 24px;
+	font-family: poppins;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 24px;
+	text-align: center;
+	z-index: 4;
+}
+.or{
+	position: absolute;
+	width: 513px;
+	height: 110px;
+	left: 468px;
+	top: 2031px;
+	font-family: playfair display;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 102px;
+	line-height: 110px;
+	color: #23242c;
+	z-index: 4;
+}
+
+.smokebus{
+	position: absolute;
+	width: 511px;
+	height: 446px;
+	left: 150px;
+	top: 2269px;
+	z-index: 4;
+}
+.hatgirl{
+	position: absolute;
+	width: 511px;
+	height: 446px;
+	left: 780px;
+	top: 2352px;
+	z-index: 4;
+}
+.smoketheatre{
+	position: absolute;
+	width: 511px;
+	height: 446px;
+	left: 150px;
+	top: 2979px;
+	z-index: 4;
+}
+.traveller{
+	position: absolute;
+	width: 511px;
+	height: 446px;
+	left: 780px;
+	top: 3062px;
+	z-index: 4;
+}
+
+/*--pic describe--*/
+
+.the_pretender {
+	position: absolute;
+	left: 150px;
+	top: 2715px;
+	width: 511px;
+	height: 181px;
+	background-color: #f6ece8;
+	z-index: 4;
+}
+.the_influencer {
+	position: absolute;
+	left: 780px;
+	top: 2798px;
+	width: 511px;
+	height: 181px;
+	background-color: #f6ece8;
+	z-index: 4;
+}
+.the_andycap {
+	position: absolute;
+	left: 150px;
+	top: 3425px;
+	width: 511px;
+	height: 181px;
+	background-color: #f6ece8;
+	z-index: 4;
+}
+.the_traveller {
+	position: absolute;
+	left: 780px;
+	top: 3508px;
+	width: 511px;
+	height: 181px;
+	background-color: #f6ece8;
+	z-index: 4;
+}
+
+
+.the_pretender h1 {
+	position: absolute;
+	width: 310px;
+	height: 64px;
+	left: 106px;
+	top: 18px;
+	font-family: playfair display;
+	font-size: 48px;
+	font-style: italic;
+	font-weight: 400;
+	color: #967675;
+}
+.the_influencer h1 {
+	position: absolute;
+	width: 317px;
+	height: 64px;
+	left: 106px;
+	top: 18px;
+	font-family: 'Playfair Display';
+	font-size: 48px;
+	font-style: italic;
+	font-weight: 400;
+	color: #967675;
+}
+.the_andycap h1 {
+	position: absolute;
+	width: 310px;
+	height: 64px;
+	left: 106px;
+	top: 18px;
+	font-family: playfair display;
+	font-size: 48px;
+	font-style: italic;
+	font-weight: 400;
+	color: #967675;
+}
+.the_traveller h1 {
+	position: absolute;
+	width: 310px;
+	height: 64px;
+	left: 106px;
+	top: 18px;
+	font-family: playfair display;
+	font-size: 48px;
+	font-style: italic;
+	font-weight: 400;
+	color: #967675;
+}
+
+.the_pretender p {
+	width: 362px;
+	height: 109px;
+	position: absolute;
+	left: 74px;
+	top: 92px;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26.54px;
+	text-align: center;
+	color: #967675;
+	font-family: poppins;
+
+}
+.the_influencer p {
+	width: 362px;
+	height: 109px;
+	position: absolute;
+	left: 74px;
+	top: 92px;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26.54px;
+	text-align: center;
+	color: #967675;
+	font-family: poppins;
+}
+.the_andycap p {
+	width: 362px;
+	height: 109px;
+	position: absolute;
+	left: 74px;
+	top: 92px;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26.54px;
+	text-align: center;
+	color: #967675;
+	font-family: poppins;
+}
+.the_traveller p {
+	width: 362px;
+	height: 109px;
+	position: absolute;
+	left: 74px;
+	top: 92px;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26.54px;
+	text-align: center;
+	color: #967675;
+	font-family: poppins;
+}
+
+/*--------------Phones---------------------*/
+
+@media (max-width: 480px) {
+
+body{
+	width: 480px;
+}
+
+.first_item h1{
+	position: absolute;
+	width: 100%;
+	height: 102px;
+	left: 142px;
+	top: 47.36px;
+	font-size: 20px;
+}
+.intro {
+	font-family: Poppins;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 16px;
+	width: 91px;
+	height: 24px;
+	position: relative;
+	top: 189px;
+	left: 53px;
+	color: #967675;
+}
+.second_item {
+	position: relative;
+	top: 199px;
+	left: 51px;
+	width: 829px;
+	height: 238px;
+	font-family: Playfair Display;
+	font-size: 52px;
+	font-style: normal;
+	font-weight: 700;
+	z-index: 3;
+	color: #23242c;
+}
+.button_learn {
+	transition: all 0.2s;
+	width: 155px;
+	height: 58px;
+	position: relative;
+	top: 100px;
+	left: 51px;
+	border: 1px solid #cfadac;
+	border-radius: 6px;
+	box-sizing: border-box;
+	box-shadow: 0px 20px 120px 1px #8883b1;
+	color: #cfadac;
+	z-index: 4;
+}
+
+.button_learn:hover{background-color: #cfadac; color: #fff;}
+
+.button_learn h1{
+	font-size: 16px;
+	font-family: poppins;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+	position: relative;
+	top: 20px;
+}
+
+.roundbig{
+	position: absolute;
+	left: 200px;
+	top: 205px;
+	width: 218px;
+	height: 218px;
+	border-radius: 518px;
+	border: #23242c 1px solid;
+	opacity: 0.1;
+	z-index: 2;
+}
+
+/*
+.roundbig{
+	position: absolute;
+	left: 611px;
+	top: 351px;
+	width: 518px;
+	height: 518px;
+	border-radius: 518px;
+	border: #23242c 1px solid;
+	opacity: 0.1;
+	z-index: 2;
+}
+
+.roundsmall{
+	position: absolute;
+	width: 246px;
+	height: 246px;
+	border-radius: 246px;
+	top: 476px;
+	left: 737px;
+	background: rgba(250, 226, 214, 0.4);
+}*/
+.roundsmall{
+	position: absolute;
+	width: 95px;
+	height: 95px;
+	border-radius: 246px;
+	top: 269px;
+	left: 260px;
+	background: rgba(250, 226, 214, 0.4);
+}
+
+/*img*/
+
+.cap{
+	position: absolute;
+	left: 991px;
+	top: 455px;
+	width: 221px;
+	height: 299px;
+	z-index: 3;
+}
+
+.g{
+	position: absolute;
+	left: 849px;
+	top: 316px;
+	width: 256px;
+	height: 370px;
+	z-index: 4;
+}
+.categories{
+	font-size: 12px;
+	display: flex;
+	position: absolute;
+	width: 456px;
+	height: 52px;
+	top: 102px;
+	left: 32px;
+	align-items: flex-start;
+	flex-direction: row;
+}
+.women{
+	position: relative;
+	left: 16px;
+}
+
+
+.kids{
+	position: relative;
+	left: 32px;
+}
+
+.anyone{
+	position: relative;
+	left: 52px;
+}
+
+.noone{
+	position: relative;
+	left: 74px;
+}
+
+.categories a{
+	color: #000;
+	font-family: poppins;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.three_cat{
+	display: flex;
+	position: absolute;
+	left: 133px;
+	top: 970px;
+	width: 1168px;
+	height: 190px;
+}
+
+.lhor {
+	position: absolute;
+	width: 1440px;
+	height: 1px;
+	opacity: 0.05;
+	filter: alpha(opacity=10);
+	background-color: #000;
+	top: 139px;
+}
+.line1 {
+	position: absolute;
+	left: 85.6px;
+	top: 140px;
+	width: 1px;
+	height: 5566px;
+	opacity: 0.05;
+	filter: alpha(opacity=10);
+	background-color: #000;
+	z-index: 1;
+}
+.line2 {
+	position: absolute;
+	top: 140px;
+	left: 171.2px;
+	width: 1px;
+	height: 5566px;
+	opacity: 0.05;
+	filter: alpha(opacity=10);
+	background-color: #000;
+	z-index: 1;
+}
+.line3 {
+	position: absolute;
+	left: 256.8px;
+	top: 140px;
+	width: 1px;
+	height: 5566px;
+	opacity: 0.05;
+	filter: alpha(opacity=10);
+	background-color: #000;
+	z-index: 1;
+}
+.line4 {
+	position: absolute;
+	left: 342.4px;
+	top: 140px;
+	width: 1px;
+	height: 5566px;
+	opacity: 0.05;
+	filter: alpha(opacity=10);
+	background-color: #000;
+	z-index: 1;
+}
+.line5 {
+	position: absolute;
+	left: 428px;
+	top: 140px;
+	width: 1px;
+	height: 5566px;
+	opacity: 0.05;
+	filter: alpha(opacity=10);
+	background-color: #000;
+	z-index: 1;
+	z-index: 4;
+}
+
+.brand h1{
+	width: 117px;
+	height: 51px;
+	font-size: 38px;
+	font-family: Playfair display;
+	font-style: italic;
+	text-align: center;
+	z-index: 4;
+}
+.styles h1{
+	width: 94px;
+	height: 51px;
+	font-size: 38px;
+	font-family: playfair display;
+	font-style: italic;
+	position: absolute;
+	left: 407px;
+	z-index: 4;
+}
+.colors h1{
+	width: 198px;
+	height: 51px;
+	font-size: 38px;
+	font-family: playfair display;
+	font-style: italic;
+	position: absolute;
+	left: 814px;
+	z-index: 4;
+}
+
+.brand p{
+	width: 233px;
+	font-size: 16px;
+	font-family: poppins;
+	line-height: 26.54px;
+	color: #9d8888;
+	position: absolute;
+	top: 81px;
+	left: 47px;
+	z-index: 4;
+}
+.styles p{
+	width: 233px;
+	font-size: 16px;
+	font-family: poppins;
+	line-height: 26.54px;
+	color: #9d8888;
+	position: absolute;
+	top: 81px;
+	left: 447px;
+	z-index: 4;
+}
+.colors p{
+	width: 233px;
+	font-size: 16px;
+	font-family: poppins;
+	line-height: 26.54px;
+	color: #9d8888;
+	position: absolute;
+	top: 81px;
+	left: 857px;
+	z-index: 4;
+}
+
+/*----ml----*/
+
+h1.bs{
+	width: 105px;
+	height: 24px;
+	position: absolute;
+	left: 801px;
+	top: 1313px;
+	font-size: 16px;
+	font-family: 'Poppins';
+	color: #967675;
+	font-weight: 300;
+	font-style: normal;
+	z-index: 4;
+}
+
+h2.mlf{
+	position: absolute;
+	top: 1345px;
+	left: 799px;
+	width: 501px;
+	height: 342px;
+	font-size: 102px;
+	font-family: 'Playfair Display';
+	font-style: normal;
+	font-weight: 700;
+	line-height: 110px;
+	color: #23242c;
+	z-index: 4;
+}
+
+a.learn{
+	transition: all 0.2s;
+	width: 185px;
+	height: 61px;
+	position: absolute;
+	top: 1720px;
+	left: 801px;
+	border: 1px solid #cfadac;
+	border-radius: 6px;
+	box-sizing: border-box;
+	box-shadow: 0px 20px 120px 1px #8883b1;
+	color: #cfadac;
+	z-index: 4;
+}
+
+.learn:hover{background-color: #cfadac; color: #fff;}
+
+.learn h1{
+	font-size: 16px;
+	font-family: poppins;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+	position: relative;
+	top: 20px;
+}
+
+img.boy{
+	position: absolute;
+	width: 591px;
+	height: 458px;
+	left: 129px;
+	top: 1323px;
+	z-index: 4;
+}
+
+/*--Our Range--*/
+
+.fire{
+	position: absolute;
+	left: 630px;
+	top: 1998px;
+	width: 181px;
+	height: 24px;
+	font-family: poppins;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 24px;
+	text-align: center;
+	z-index: 4;
+}
+.or{
+	position: absolute;
+	width: 513px;
+	height: 110px;
+	left: 468px;
+	top: 2031px;
+	font-family: playfair display;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 102px;
+	line-height: 110px;
+	color: #23242c;
+	z-index: 4;
+}
+
+.smokebus{
+	position: absolute;
+	width: 511px;
+	height: 446px;
+	left: 150px;
+	top: 2269px;
+	z-index: 4;
+}
+.hatgirl{
+	position: absolute;
+	width: 511px;
+	height: 446px;
+	left: 780px;
+	top: 2352px;
+	z-index: 4;
+}
+.smoketheatre{
+	position: absolute;
+	width: 511px;
+	height: 446px;
+	left: 150px;
+	top: 2979px;
+	z-index: 4;
+}
+.traveller{
+	position: absolute;
+	width: 511px;
+	height: 446px;
+	left: 780px;
+	top: 3062px;
+	z-index: 4;
+}
+
+/*--pic describe--*/
+
+.the_pretender {
+	position: absolute;
+	left: 150px;
+	top: 2715px;
+	width: 511px;
+	height: 181px;
+	background-color: #f6ece8;
+	z-index: 4;
+}
+.the_influencer {
+	position: absolute;
+	left: 780px;
+	top: 2798px;
+	width: 511px;
+	height: 181px;
+	background-color: #f6ece8;
+	z-index: 4;
+}
+.the_andycap {
+	position: absolute;
+	left: 150px;
+	top: 3425px;
+	width: 511px;
+	height: 181px;
+	background-color: #f6ece8;
+	z-index: 4;
+}
+.the_traveller {
+	position: absolute;
+	left: 780px;
+	top: 3508px;
+	width: 511px;
+	height: 181px;
+	background-color: #f6ece8;
+	z-index: 4;
+}
+
+
+.the_pretender h1 {
+	position: absolute;
+	width: 310px;
+	height: 64px;
+	left: 106px;
+	top: 18px;
+	font-family: playfair display;
+	font-size: 48px;
+	font-style: italic;
+	font-weight: 400;
+	color: #967675;
+}
+.the_influencer h1 {
+	position: absolute;
+	width: 317px;
+	height: 64px;
+	left: 106px;
+	top: 18px;
+	font-family: 'Playfair Display';
+	font-size: 48px;
+	font-style: italic;
+	font-weight: 400;
+	color: #967675;
+}
+.the_andycap h1 {
+	position: absolute;
+	width: 310px;
+	height: 64px;
+	left: 106px;
+	top: 18px;
+	font-family: playfair display;
+	font-size: 48px;
+	font-style: italic;
+	font-weight: 400;
+	color: #967675;
+}
+.the_traveller h1 {
+	position: absolute;
+	width: 310px;
+	height: 64px;
+	left: 106px;
+	top: 18px;
+	font-family: playfair display;
+	font-size: 48px;
+	font-style: italic;
+	font-weight: 400;
+	color: #967675;
+}
+
+.the_pretender p {
+	width: 362px;
+	height: 109px;
+	position: absolute;
+	left: 74px;
+	top: 92px;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26.54px;
+	text-align: center;
+	color: #967675;
+	font-family: poppins;
+
+}
+.the_influencer p {
+	width: 362px;
+	height: 109px;
+	position: absolute;
+	left: 74px;
+	top: 92px;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26.54px;
+	text-align: center;
+	color: #967675;
+	font-family: poppins;
+}
+.the_andycap p {
+	width: 362px;
+	height: 109px;
+	position: absolute;
+	left: 74px;
+	top: 92px;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26.54px;
+	text-align: center;
+	color: #967675;
+	font-family: poppins;
+}
+.the_traveller p {
+	width: 362px;
+	height: 109px;
+	position: absolute;
+	left: 74px;
+	top: 92px;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26.54px;
+	text-align: center;
+	color: #967675;
+	font-family: poppins;
+}
+}
+
+
+
